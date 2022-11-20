@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+
+
+.box{
+    @apply flex items-center  justify-center w-[200px] h-[200px] p-4 m-3 bg-purple-400 rounded-md font-serif text-3xl;
+}
+
+@tailwind utilities;
